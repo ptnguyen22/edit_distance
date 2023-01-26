@@ -1,0 +1,1200 @@
+desc: (none)
+cmd: ./EDistance
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=8058852
+mem_heap_B=869722
+mem_heap_extra_B=742
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=13553083
+mem_heap_B=2650078
+mem_heap_extra_B=2522
+mem_stacks_B=0
+heap_tree=detailed
+n4: 2650078 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2420484 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 2420484 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 2420484 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 2380476 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 2380476 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 2360472 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 2360472 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n1: 40008 0x10CAF4: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n1: 40008 0x10C1C6: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 40008 0x10B5D2: std::vector<int, std::allocator<int> >::vector(unsigned long, std::allocator<int> const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 40008 in 2 places, all below massif's threshold (1.00%)
+ n1: 120024 0x10D51A: __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 120024 0x10D039: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n1: 120024 0x10C96D: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 120024 0x10BDB0: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_default_append(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n1: 120024 0x10B4DA: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::resize(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 120024 0x10A627: EDistance::EDistance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 120024 0x10ED6B: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+ n1: 72704 0x4911B89: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.29)
+  n1: 72704 0x401196D: call_init.part.0 (dl-init.c:74)
+   n1: 72704 0x4011A57: call_init (dl-init.c:37)
+    n1: 72704 0x4011A57: _dl_init (dl-init.c:121)
+     n0: 72704 0x4001109: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.33.so)
+ n0: 36866 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=17366207
+mem_heap_B=3890326
+mem_heap_extra_B=3762
+mem_stacks_B=0
+heap_tree=detailed
+n4: 3890326 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3660732 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 3660732 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 3660732 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 3620724 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 3620724 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 3600720 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 3600720 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n1: 40008 0x10CAF4: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n1: 40008 0x10C1C6: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 40008 0x10B5D2: std::vector<int, std::allocator<int> >::vector(unsigned long, std::allocator<int> const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 40008 in 2 places, all below massif's threshold (1.00%)
+ n1: 120024 0x10D51A: __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 120024 0x10D039: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n1: 120024 0x10C96D: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 120024 0x10BDB0: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_default_append(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n1: 120024 0x10B4DA: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::resize(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 120024 0x10A627: EDistance::EDistance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 120024 0x10ED6B: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+ n1: 72704 0x4911B89: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.29)
+  n1: 72704 0x401196D: call_init.part.0 (dl-init.c:74)
+   n1: 72704 0x4011A57: call_init (dl-init.c:37)
+    n1: 72704 0x4011A57: _dl_init (dl-init.c:121)
+     n0: 72704 0x4001109: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.33.so)
+ n0: 36866 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=23085893
+mem_heap_B=5750698
+mem_heap_extra_B=5622
+mem_stacks_B=0
+heap_tree=detailed
+n4: 5750698 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 5521104 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 5521104 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 5521104 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 5481096 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 5481096 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 5461092 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 5461092 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n1: 120024 0x10D51A: __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 120024 0x10D039: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n1: 120024 0x10C96D: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 120024 0x10BDB0: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_default_append(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n1: 120024 0x10B4DA: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::resize(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 120024 0x10A627: EDistance::EDistance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 120024 0x10ED6B: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+ n1: 72704 0x4911B89: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.29)
+  n1: 72704 0x401196D: call_init.part.0 (dl-init.c:74)
+   n1: 72704 0x4011A57: call_init (dl-init.c:37)
+    n1: 72704 0x4011A57: _dl_init (dl-init.c:121)
+     n0: 72704 0x4001109: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.33.so)
+ n0: 36866 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=30773643
+mem_heap_B=8251198
+mem_heap_extra_B=8122
+mem_stacks_B=0
+heap_tree=detailed
+n3: 8251198 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8021604 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 8021604 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 8021604 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 7981596 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 7981596 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 7961592 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 7961592 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n1: 120024 0x10D51A: __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 120024 0x10D039: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n1: 120024 0x10C96D: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 120024 0x10BDB0: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_default_append(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n1: 120024 0x10B4DA: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::resize(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 120024 0x10A627: EDistance::EDistance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 120024 0x10ED6B: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+ n0: 109570 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=36001313
+mem_heap_B=9951538
+mem_heap_extra_B=9822
+mem_stacks_B=0
+heap_tree=detailed
+n3: 9951538 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 9721944 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 9721944 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 9721944 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 9681936 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 9681936 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 9661932 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 9661932 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n1: 120024 0x10D51A: __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 120024 0x10D039: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n1: 120024 0x10C96D: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 120024 0x10BDB0: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_default_append(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n1: 120024 0x10B4DA: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::resize(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 120024 0x10A627: EDistance::EDistance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 120024 0x10ED6B: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+ n0: 109570 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=41844003
+mem_heap_B=11851918
+mem_heap_extra_B=11722
+mem_stacks_B=0
+heap_tree=detailed
+n3: 11851918 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 11622324 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 11622324 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 11622324 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 11582316 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 11582316 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 11562312 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 11562312 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n1: 120024 0x10D51A: __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 120024 0x10D039: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n1: 120024 0x10C96D: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 120024 0x10BDB0: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_default_append(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n1: 120024 0x10B4DA: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::resize(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 120024 0x10A627: EDistance::EDistance(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 120024 0x10ED6B: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+ n0: 109570 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=48609223
+mem_heap_B=14052358
+mem_heap_extra_B=13922
+mem_stacks_B=0
+heap_tree=detailed
+n2: 14052358 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 13822764 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 13822764 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 13822764 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 13782756 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 13782756 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 13762752 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 13762752 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=56665985
+mem_heap_B=16672882
+mem_heap_extra_B=16542
+mem_stacks_B=0
+heap_tree=detailed
+n2: 16672882 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 16443288 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 16443288 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 16443288 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 16403280 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 16403280 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 16383276 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 16383276 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=61094129
+mem_heap_B=18113170
+mem_heap_extra_B=17982
+mem_stacks_B=0
+heap_tree=detailed
+n2: 18113170 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 17883576 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 17883576 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 17883576 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 17843568 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 17843568 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 17823564 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 17823564 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=66014289
+mem_heap_B=19713490
+mem_heap_extra_B=19582
+mem_stacks_B=0
+heap_tree=detailed
+n2: 19713490 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 19483896 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 19483896 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 19483896 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 19443888 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 19443888 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 19423884 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 19423884 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=71303461
+mem_heap_B=21433834
+mem_heap_extra_B=21302
+mem_stacks_B=0
+heap_tree=detailed
+n2: 21433834 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 21204240 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 21204240 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 21204240 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 21164232 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 21164232 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 21144228 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 21144228 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=79237219
+mem_heap_B=24014350
+mem_heap_extra_B=23882
+mem_stacks_B=0
+heap_tree=detailed
+n2: 24014350 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 23784756 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 23784756 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 23784756 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 23744748 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 23744748 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 23724744 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 23724744 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=85633427
+mem_heap_B=26094766
+mem_heap_extra_B=25962
+mem_stacks_B=0
+heap_tree=detailed
+n2: 26094766 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 25865172 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 25865172 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 25865172 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 25825164 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 25825164 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 25805160 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 25805160 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=92583153
+mem_heap_B=28355218
+mem_heap_extra_B=28222
+mem_stacks_B=0
+heap_tree=detailed
+n2: 28355218 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 28125624 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 28125624 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 28125624 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 28085616 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 28085616 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 28065612 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 28065612 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=16
+#-----------
+time=100086397
+mem_heap_B=30795706
+mem_heap_extra_B=30662
+mem_stacks_B=0
+heap_tree=detailed
+n2: 30795706 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 30566112 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 30566112 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 30566112 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 30526104 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 30526104 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 30506100 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 30506100 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=108204661
+mem_heap_B=33436234
+mem_heap_extra_B=33302
+mem_stacks_B=0
+heap_tree=detailed
+n2: 33436234 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 33206640 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 33206640 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 33206640 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 33166632 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 33166632 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 33146628 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 33146628 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=115830909
+mem_heap_B=35916730
+mem_heap_extra_B=35782
+mem_stacks_B=0
+heap_tree=detailed
+n2: 35916730 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 35687136 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 35687136 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 35687136 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 35647128 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 35647128 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 35627124 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 35627124 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=120443559
+mem_heap_B=37417030
+mem_heap_extra_B=37282
+mem_stacks_B=0
+heap_tree=detailed
+n2: 37417030 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 37187436 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 37187436 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 37187436 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 37147428 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 37147428 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 37127424 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 37127424 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=20
+#-----------
+time=125240715
+mem_heap_B=38977342
+mem_heap_extra_B=38842
+mem_stacks_B=0
+heap_tree=detailed
+n2: 38977342 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 38747748 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 38747748 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 38747748 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 38707740 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 38707740 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 38687736 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 38687736 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=130222377
+mem_heap_B=40597666
+mem_heap_extra_B=40462
+mem_stacks_B=0
+heap_tree=detailed
+n2: 40597666 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 40368072 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 40368072 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 40368072 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 40328064 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 40328064 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 40308060 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 40308060 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=22
+#-----------
+time=135388545
+mem_heap_B=42278002
+mem_heap_extra_B=42142
+mem_stacks_B=0
+heap_tree=detailed
+n2: 42278002 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 42048408 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 42048408 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 42048408 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 42008400 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 42008400 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 41988396 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 41988396 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=140800721
+mem_heap_B=44038354
+mem_heap_extra_B=43902
+mem_stacks_B=0
+heap_tree=detailed
+n2: 44038354 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 43808760 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 43808760 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 43808760 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 43768752 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 43768752 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 43748748 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 43748748 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=146458905
+mem_heap_B=45878722
+mem_heap_extra_B=45742
+mem_stacks_B=0
+heap_tree=detailed
+n2: 45878722 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 45649128 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 45649128 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 45649128 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 45609120 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 45609120 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 45589116 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 45589116 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=152301595
+mem_heap_B=47779102
+mem_heap_extra_B=47642
+mem_stacks_B=0
+heap_tree=detailed
+n2: 47779102 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 47549508 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 47549508 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 47549508 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 47509500 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 47509500 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 47489496 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 47489496 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=158390293
+mem_heap_B=49759498
+mem_heap_extra_B=49622
+mem_stacks_B=0
+heap_tree=detailed
+n2: 49759498 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 49529904 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 49529904 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 49529904 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 49489896 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 49489896 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 49469892 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 49469892 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=164724999
+mem_heap_B=51819910
+mem_heap_extra_B=51682
+mem_stacks_B=0
+heap_tree=detailed
+n2: 51819910 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 51590316 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 51590316 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 51590316 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 51550308 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 51550308 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 51530304 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 51530304 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=171305713
+mem_heap_B=53960338
+mem_heap_extra_B=53822
+mem_stacks_B=0
+heap_tree=detailed
+n2: 53960338 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 53730744 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 53730744 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 53730744 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 53690736 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 53690736 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 53670732 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 53670732 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=29
+#-----------
+time=174688323
+mem_heap_B=55060558
+mem_heap_extra_B=54922
+mem_stacks_B=0
+heap_tree=detailed
+n2: 55060558 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 54830964 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 54830964 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 54830964 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 54790956 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 54790956 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 54770952 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 54770952 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=179915993
+mem_heap_B=56760898
+mem_heap_extra_B=56622
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56760898 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56531304 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 56531304 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 56531304 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 56491296 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 56491296 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 56471292 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 56471292 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=187111727
+mem_heap_B=59101366
+mem_heap_extra_B=58962
+mem_stacks_B=0
+heap_tree=detailed
+n2: 59101366 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 58871772 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 58871772 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 58871772 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 58831764 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 58831764 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 58811760 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 58811760 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=194614971
+mem_heap_B=61541854
+mem_heap_extra_B=61402
+mem_stacks_B=0
+heap_tree=detailed
+n2: 61541854 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 61312260 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 61312260 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 61312260 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 61272252 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 61272252 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 61252248 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 61252248 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=202425725
+mem_heap_B=64082362
+mem_heap_extra_B=63942
+mem_stacks_B=0
+heap_tree=detailed
+n2: 64082362 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 63852768 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 63852768 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 63852768 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 63812760 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 63812760 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 63792756 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 63792756 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=34
+#-----------
+time=210605491
+mem_heap_B=66742894
+mem_heap_extra_B=66602
+mem_stacks_B=0
+heap_tree=detailed
+n2: 66742894 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 66513300 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 66513300 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 66513300 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 66473292 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 66473292 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 66453288 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 66453288 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=214787627
+mem_heap_B=68103166
+mem_heap_extra_B=67962
+mem_stacks_B=0
+heap_tree=detailed
+n2: 68103166 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 67873572 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 67873572 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 67873572 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 67833564 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 67833564 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 67813560 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 67813560 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=219092767
+mem_heap_B=69503446
+mem_heap_extra_B=69362
+mem_stacks_B=0
+heap_tree=detailed
+n2: 69503446 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 69273852 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 69273852 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 69273852 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 69233844 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 69233844 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 69213840 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 69213840 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=223459409
+mem_heap_B=70923730
+mem_heap_extra_B=70782
+mem_stacks_B=0
+heap_tree=detailed
+n2: 70923730 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70694136 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 70694136 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 70694136 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 70654128 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 70654128 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 70634124 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 70634124 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=227887553
+mem_heap_B=72364018
+mem_heap_extra_B=72222
+mem_stacks_B=0
+heap_tree=detailed
+n2: 72364018 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72134424 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 72134424 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 72134424 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 72094416 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 72094416 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 72074412 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 72074412 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=39
+#-----------
+time=232438701
+mem_heap_B=73844314
+mem_heap_extra_B=73702
+mem_stacks_B=0
+heap_tree=detailed
+n2: 73844314 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73614720 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 73614720 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 73614720 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 73574712 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 73574712 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 73554708 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 73554708 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=237051351
+mem_heap_B=75344614
+mem_heap_extra_B=75202
+mem_stacks_B=0
+heap_tree=detailed
+n2: 75344614 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 75115020 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 75115020 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 75115020 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 75075012 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 75075012 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 75055008 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 75055008 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=41
+#-----------
+time=241787005
+mem_heap_B=76884922
+mem_heap_extra_B=76742
+mem_stacks_B=0
+heap_tree=detailed
+n2: 76884922 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 76655328 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 76655328 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 76655328 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 76615320 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 76615320 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 76595316 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 76595316 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=42
+#-----------
+time=246584161
+mem_heap_B=78445234
+mem_heap_extra_B=78302
+mem_stacks_B=0
+heap_tree=detailed
+n2: 78445234 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 78215640 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 78215640 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 78215640 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 78175632 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 78175632 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 78155628 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 78155628 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=251504321
+mem_heap_B=80045554
+mem_heap_extra_B=79902
+mem_stacks_B=0
+heap_tree=detailed
+n2: 80045554 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 79815960 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 79815960 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 79815960 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 79775952 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 79775952 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 79755948 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 79755948 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=44
+#-----------
+time=256547485
+mem_heap_B=81685882
+mem_heap_extra_B=81542
+mem_stacks_B=0
+heap_tree=detailed
+n2: 81685882 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 81456288 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 81456288 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 81456288 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 81416280 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 81416280 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 81396276 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 81396276 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=45
+#-----------
+time=261652151
+mem_heap_B=83346214
+mem_heap_extra_B=83202
+mem_stacks_B=0
+heap_tree=detailed
+n2: 83346214 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 83116620 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 83116620 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 83116620 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 83076612 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 83076612 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 83056608 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 83056608 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=266879821
+mem_heap_B=85046554
+mem_heap_extra_B=84902
+mem_stacks_B=0
+heap_tree=detailed
+n2: 85046554 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 84816960 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 84816960 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 84816960 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 84776952 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 84776952 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 84756948 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 84756948 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=47
+#-----------
+time=272168993
+mem_heap_B=86766898
+mem_heap_extra_B=86622
+mem_stacks_B=0
+heap_tree=detailed
+n2: 86766898 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 86537304 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 86537304 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 86537304 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 86497296 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 86497296 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 86477292 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 86477292 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=48
+#-----------
+time=277581169
+mem_heap_B=88527250
+mem_heap_extra_B=88382
+mem_stacks_B=0
+heap_tree=detailed
+n2: 88527250 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 88297656 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 88297656 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 88297656 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 88257648 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 88257648 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 88237644 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 88237644 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=283116349
+mem_heap_B=90327610
+mem_heap_extra_B=90182
+mem_stacks_B=0
+heap_tree=detailed
+n2: 90327610 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 90098016 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 90098016 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 90098016 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 90058008 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 90058008 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 90038004 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 90038004 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=285945441
+mem_heap_B=91247794
+mem_heap_extra_B=91102
+mem_stacks_B=0
+heap_tree=detailed
+n2: 91247794 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 91018200 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 91018200 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 91018200 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 90978192 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 90978192 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 90958188 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 90958188 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=51
+#-----------
+time=288774533
+mem_heap_B=92167978
+mem_heap_extra_B=92022
+mem_stacks_B=0
+heap_tree=detailed
+n2: 92167978 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 91938384 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 91938384 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 91938384 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 91898376 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 91898376 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 91878372 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 91878372 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=52
+#-----------
+time=291665127
+mem_heap_B=93108166
+mem_heap_extra_B=92962
+mem_stacks_B=0
+heap_tree=detailed
+n2: 93108166 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 92878572 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 92878572 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 92878572 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 92838564 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 92838564 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 92818560 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 92818560 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=53
+#-----------
+time=294555721
+mem_heap_B=94048354
+mem_heap_extra_B=93902
+mem_stacks_B=0
+heap_tree=detailed
+n2: 94048354 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 93818760 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 93818760 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 93818760 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 93778752 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 93778752 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 93758748 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 93758748 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=54
+#-----------
+time=297507817
+mem_heap_B=95008546
+mem_heap_extra_B=94862
+mem_stacks_B=0
+heap_tree=detailed
+n2: 95008546 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 94778952 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 94778952 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 94778952 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 94738944 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 94738944 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 94718940 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 94718940 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=300459913
+mem_heap_B=95968738
+mem_heap_extra_B=95822
+mem_stacks_B=0
+heap_tree=detailed
+n2: 95968738 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 95739144 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 95739144 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 95739144 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 95699136 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 95699136 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 95679132 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 95679132 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=56
+#-----------
+time=303412009
+mem_heap_B=96928930
+mem_heap_extra_B=96782
+mem_stacks_B=0
+heap_tree=detailed
+n2: 96928930 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 96699336 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 96699336 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 96699336 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 96659328 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 96659328 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 96639324 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 96639324 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=57
+#-----------
+time=306425607
+mem_heap_B=97909126
+mem_heap_extra_B=97762
+mem_stacks_B=0
+heap_tree=detailed
+n2: 97909126 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 97679532 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 97679532 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 97679532 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 97639524 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 97639524 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 97619520 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 97619520 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=58
+#-----------
+time=309439205
+mem_heap_B=98889322
+mem_heap_extra_B=98742
+mem_stacks_B=0
+heap_tree=detailed
+n2: 98889322 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 98659728 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 98659728 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 98659728 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 98619720 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 98619720 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 98599716 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 98599716 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=59
+#-----------
+time=312514305
+mem_heap_B=99889522
+mem_heap_extra_B=99742
+mem_stacks_B=0
+heap_tree=peak
+n2: 99889522 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 99659928 0x10D69F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+  n1: 99659928 0x10D227: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+   n2: 99659928 0x10CC79: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+    n1: 99619920 0x10C497: int* std::vector<int, std::allocator<int> >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(unsigned long, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+     n2: 99619920 0x10B825: std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&) (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n1: 99599916 0x10A876: EDistance::OptDistance() (in /home/osboxes/Documents/comp4/ps5/EDistance)
+       n0: 99599916 0x10EDA8: main (in /home/osboxes/Documents/comp4/ps5/EDistance)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+    n0: 40008 in 1 place, below massif's threshold (1.00%)
+ n0: 229594 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=8352625088
+mem_heap_B=100269598
+mem_heap_extra_B=100122
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=8356599399
+mem_heap_B=100332380
+mem_heap_extra_B=100156
+mem_stacks_B=0
+heap_tree=empty
